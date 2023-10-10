@@ -1,0 +1,87 @@
+body{
+    background-image: linear-gradient(to bottom , rgb(74 25 25), black);
+    width: 100%;
+
+}
+header{
+
+    display: flex;
+    color: wheat;
+    width:100%;
+    flex-wrap: wrap;
+    margin: -5px 0px 10px 0px ;
+    justify-content: space-between;
+}
+.layout_list{
+    font-size: 20px;
+    background-color: black;
+    width:85% ;
+    color: red;
+
+}
+.layout_list ul {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 0px;
+}
+
+.layout_list li{
+    list-style: none;
+    width: 300px;
+    align-items: center;
+    display: grid;
+    height: 60px;
+}
+.logo{
+    width: 15%;
+}
+.logo img{
+    width: 200px;
+    height: 60px;
+}
+h1{
+    position: absolute;
+    background-color: black;
+    color: red;
+    width: 100%;
+    text-align: center;
+position: sticky;
+margin: 0px 0px -20px 0px;
+bottom: 0px;
+}
+h3{
+    position: absolute;
+    background-color: black;
+    color: red;
+    width: 100%;
+    font-size: 25px;
+
+position: sticky;
+bottom: 0px;
+}
+main{
+    position: relative;
+}
+picture img{
+    width: 400px ;
+    padding: 0px 5px;
+    height: 400px;
+}
+p{
+    color: red;
+    font-size: 25px;
+}
+img:hover{
+    box-shadow: 0px 0px 10px 10px red;
+}
+li:hover{
+    background-color: red;
+    color: wheat;
+}
+article{
+    background-color: black;
+}
+.article1{
+    background-color: black;
+}
